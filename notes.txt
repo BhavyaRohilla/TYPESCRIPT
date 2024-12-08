@@ -1,0 +1,80 @@
+Typescript
+    - Programming Language
+    use to develop
+        1.  Angular
+        2. React
+        3. VueJS
+        4. NodeJS
+    Microsoft Released this
+    Current version 4.x
+    oops
+    class
+    object
+    inheritance
+    polymorphism
+    encapsulation
+    abstraction
+
+
+    Superset of javascript 
+
+    .ts extesntion
+
+    browser unable to underatand ts
+
+
+    Transpilation
+        tsc (rtpescript compiler)
+
+        command based insallation
+        using npm 
+
+insallation of Typescript
+*************************
+
+1) donwload and install NodeJS
+2) download and install visual studio code
+3) insatll Typescript
+    > npm install --location=global typescript
+    > tsc --version
+
+Transpilation
+*************
+    > tsc demo.ts 
+        o/p
+      demo.js
+    
+    > node demo.js
+
+variables
+*********
+    variables are used to store data
+
+    we can create variables in 3 ways
+
+    1) var 2) let 3) const
+
+    let and const introduced in ES6 version
+
+    variable declaration should contain a-z, A-Z, 0-9, $ and _
+    variable declaration shold not start with digits/number
+
+    ts Datatypes
+    1) string
+    2) number
+    3) boolean
+    4) any
+    5) never
+    6) arrays
+    7) object
+    8) tuples
+    9) type
+    etc...
+
+syntax
+******
+    var/let/const variablename:datatype = value;
+
+Ex var msg:string = "Welcome to typescript";
+
+        
